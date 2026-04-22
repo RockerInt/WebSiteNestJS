@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/WebSiteNestJS//_next/:path+",
+        "destination": "/WebSiteNestJS/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
